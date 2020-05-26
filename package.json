@@ -1,0 +1,36 @@
+{
+  "name": "react-npm-module-boilerplate",
+  "version": "1.0.1-beta.2",
+  "description": "boilerplate",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "npm",
+    "module"
+  ],
+  "author": "Some lucky someone",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "html-loader": "^1.1.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
